@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter/services.dart';
 
 class FlutterAppManager {
@@ -39,7 +37,6 @@ class FlutterAppManager {
           await _channel.invokeMethod('openApp', {'packageName': packageName});
       return result;
     } catch (e) {
-      print('Error opening app: $e');
       return false;
     }
   }

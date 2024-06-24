@@ -1,16 +1,16 @@
-# flutter_app_manager
+# Flutter App Manager
 
-A new Flutter plugin project.
+Flutter App Manager is a plugin that allows you to retrieve information about installed apps on an Android device and launch them programmatically.
+
+## Features
+
+- Get a list of all installed apps on the device
+- Launch an app using its package name
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+To use this plugin, add `flutter_app_manager` as a dependency in your pubspec.yaml file.
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-# flutter_app_manager
+```yaml
+dependencies:
+  flutter_app_manager: ^0.0.1

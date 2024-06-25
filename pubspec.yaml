@@ -1,10 +1,8 @@
 name: flutter_app_manager
 description: >
-  A comprehensive Flutter plugin for managing and interacting with installed applications on Android devices. 
-  This plugin provides functionality to retrieve detailed information about all installed apps, including 
-  system and user-installed applications.
+  A comprehensive Flutter plugin for viewing and interacting with installed applications on Android devices. 
 
-version: 0.0.2
+version: 0.0.3
 
 homepage: "https://github.com/K123Ritesh/flutter_app_manager.git"
 

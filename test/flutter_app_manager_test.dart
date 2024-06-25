@@ -7,13 +7,13 @@ import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 class MockFlutterAppManagerPlatform
     with MockPlatformInterfaceMixin
     implements FlutterAppManagerPlatform {
-
   @override
   Future<String?> getPlatformVersion() => Future.value('42');
 }
 
 void main() {
-  final FlutterAppManagerPlatform initialPlatform = FlutterAppManagerPlatform.instance;
+  final FlutterAppManagerPlatform initialPlatform =
+      FlutterAppManagerPlatform.instance;
 
   test('$MethodChannelFlutterAppManager is the default instance', () {
     expect(initialPlatform, isInstanceOf<MethodChannelFlutterAppManager>());
@@ -21,7 +21,8 @@ void main() {
 
   test('getPlatformVersion', () async {
     FlutterAppManager flutterAppManagerPlugin = FlutterAppManager();
-    MockFlutterAppManagerPlatform fakePlatform = MockFlutterAppManagerPlatform();
+    MockFlutterAppManagerPlatform fakePlatform =
+        MockFlutterAppManagerPlatform();
     FlutterAppManagerPlatform.instance = fakePlatform;
 
     expect(await flutterAppManagerPlugin.getPlatformVersion(), '42');

@@ -13,4 +13,4 @@ To use this plugin, add `flutter_app_manager` as a dependency in your pubspec.ya
 
 ```yaml
 dependencies:
-  flutter_app_manager: ^0.0.1
+  flutter_app_manager: ^0.0.3
